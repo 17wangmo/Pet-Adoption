@@ -14,6 +14,10 @@ export const config = {
   },
 };
 
+export const routeSegmentConfig = {
+  // your config options here
+}
+
 export async function POST(req) {
   try {
     await connectDB();
