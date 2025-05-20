@@ -8,15 +8,11 @@ import { join } from 'path';
 import formidable from 'formidable';
 import fs from 'fs';
 
-export const config = {
+export const routeSegmentConfig = {
   api: {
     bodyParser: false, // Required for formidable to parse form-data
   },
 };
-
-export const routeSegmentConfig = {
-  // your config options here
-}
 
 export async function POST(req) {
   try {
